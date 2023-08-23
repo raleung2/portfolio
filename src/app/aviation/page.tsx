@@ -1,10 +1,22 @@
 import Image from "next/image"
+import Script from 'next/script'
 
 export default function Aviation() {
   return (
     <div className='text-center bg-slate-800 text-white min-h-[calc(100vh-140px)] '> {/*wrapper*/}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-TDMTJPV3BS"/>
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-TDMTJPV3BS');
+        `}
+      </Script>
+
       <section id="title" className="grid justify-items-center">
-        <p className="font-semibold text-4xl pt-7">Aviation</p>
+        <p className="font-semibold text-4xl py-7">Aviation</p>
         <div className="grid justify-items-center my-4">
           <Image src={'/plane.jpg'} alt={'etchasketch'}width={400} height={400}></Image>
         </div>

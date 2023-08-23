@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { AiOutlineLink } from "react-icons/ai"
-
+import Script from 'next/script'
 
 export default function EtchASketch() {
 
@@ -9,6 +9,17 @@ export default function EtchASketch() {
 
   return(
     <div className='text-center bg-slate-800 text-white min-h-[calc(100vh-134px)] grid lg:grid-cols-2 place-items-center'> {/*wrapper*/}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-TDMTJPV3BS"/>
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-TDMTJPV3BS');
+        `}
+      </Script>
+
 
       <div id="picture" className="lg:w-3/4">
         <Image src={'/projects/etchasketch.png'} alt={'etchasketch'}width={1000} height={1000}></Image>

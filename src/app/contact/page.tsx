@@ -1,6 +1,19 @@
+import Script from 'next/script'
+
 export default function Contact() {
   return (
     <div className='text-center bg-slate-800 text-white min-h-[calc(100vh-140px)] '> {/*wrapper*/}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-TDMTJPV3BS"/>
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-TDMTJPV3BS');
+        `}
+      </Script>
+      
       <section id="title">
         <p className="font-semibold text-4xl pt-7">Contact</p>
         <p className="font-semibold text-xl my-2">Send Me a Message!</p>

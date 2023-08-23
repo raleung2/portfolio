@@ -1,9 +1,21 @@
 import Image from 'next/image'
+import Script from 'next/script'
 import OpaqueBox from '@/components/opaque-box'
 
 export default function Home() {
   return (
     <div className='text-center bg-slate-800 text-white'> {/*wrapper*/}
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-TDMTJPV3BS"/>
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'G-TDMTJPV3BS');
+        `}
+      </Script>
+      
       <section id='welcome' className='pt-7'>
         <p className='font-semibold text-3xl lg:text-4xl'>Rafferty Leung</p>
         <p>———</p>
