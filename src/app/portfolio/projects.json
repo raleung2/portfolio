@@ -1,0 +1,48 @@
+[
+  {
+    "imagePath": "/projects/spotcheckai.png",
+    "projectTitle": "DirectoryGPT",
+    "projectDescription": "Large language model chatbot interfacing with user uploaded documents with API capabilities."
+  },
+  {
+    "imagePath": "/projects/spotcheckai.png",
+    "projectTitle": "SpotCheckAI",
+    "projectDescription": "A web application that can identify suspicious skin lesions as benign or cancerous. Integrated with OpenAI's GPT-3.5 Large Language Model (LLM)."
+  },
+  {
+    "imagePath": "/projects/accidentme.png",
+    "projectTitle": "Accident.Me",
+    "projectDescription": "A web application that enables users to capture and log specific details when in an automobile accident."
+  },
+  {
+    "imagePath": "/projects/animalz.png",
+    "projectTitle": "Animalz",
+    "projectDescription": "An application that teaches kids different animal sounds as well as displaying random facts about cats and dogs on a phone shake."
+  },
+  {
+    "imagePath": "/projects/opart.png",
+    "projectTitle": "Op Art",
+    "projectDescription": "A website that utilizes the device's accelerometer to display interactive op art. Art inspiration from Bridget Riley."
+  },
+  {
+    "imagePath": "/projects/etchasketch.png",
+    "projectTitle": "Etch a Sketch",
+    "projectDescription": "A website that utilizes event listeners to simulate etch-a-sketch drawing pad."
+  },
+  {
+    "imagePath": "/projects/spaceinvaders.png",
+    "projectTitle": "Space Invaders",
+    "projectDescription": "Game based application with score keeping and a main menu."
+  },
+  {
+    "imagePath": "/projects/abaloneeda.png",
+    "projectTitle": "EDA and ML Model of Abalone Dataset",
+    "projectDescription": "Implementing a machine learning model on an abalone dataset from UC Irvine's ML repository."
+  },
+  {
+    "imagePath": "/projects/lotteryquickpick.png",
+    "projectTitle": "Lottery Quick Pick",
+    "projectDescription": "A Java based CLI that plays three lottery games: Mega Millions, Powerball, and SuperLotto."
+  }
+
+]
