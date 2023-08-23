@@ -12,7 +12,7 @@ export default function Contact() {
           <input type="hidden" name="_template" value="table"></input>
           <input type="hidden" name="_autoresponse" value="Thanks for your message! I will get back to you as soon as possible!"></input>
           <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase"></input>
-          <input type="hidden" name="_next" value="https://yourdomain.co/thanks.html"></input>
+          <input type="hidden" name="_next" value="https://www.rafferty-leung.com/thanks"></input>
 
           <input type="text" name="name" className="w-full my-2" placeholder="  Full Name" required></input>
 
