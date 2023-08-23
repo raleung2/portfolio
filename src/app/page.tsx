@@ -16,7 +16,7 @@ export default function Home() {
           <button 
             className=' transition-colors bg-cyan-500 hover:bg-cyan-700 text-white hover:opacity-50 font-semibold py-3 px-7 rounded-full my-6'
           >
-            Let's Get In Touch
+            Let&apos;s Get In Touch
           </button>
         </a>
       </section>

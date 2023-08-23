@@ -26,7 +26,7 @@ export default function DirectoryGPT() {
         </div>
 
 
-        <p className="my-5">A Flask-based RESTful API for interaction with user-uploaded documents, integrating with open source large language models (LLM) or OpenAI's LLM.</p>
+        <p className="my-5">A Flask-based RESTful API for interaction with user-uploaded documents, integrating with open source large language models (LLM) or OpenAI&apos;s LLM.</p>
         
         <p className="font-semibold text-2xl">Technologies Used:</p>
 
@@ -35,8 +35,8 @@ export default function DirectoryGPT() {
 
           <div className="md:col-span-2 my-1">
             {languages.map((language, index)  =>(
-                <div className="inline-block px-4 py-2 mx-2 my-1 rounded-full bg-cyan-600 hover:bg-cyan-600/50">
-                  <p key={index}>{language}</p>
+                <div className="inline-block px-4 py-2 mx-2 my-1 rounded-full bg-cyan-600 hover:bg-cyan-600/50" key={index}>
+                  <p>{language}</p>
                 </div>
               ))
             }
@@ -48,8 +48,8 @@ export default function DirectoryGPT() {
 
           <div className="md:col-span-2 my-1">
             {frameworks.map((framework, index)  =>(
-                <div className="inline-block px-4 py-2 mx-2 my-1 rounded-full bg-cyan-700 hover:bg-cyan-700/50">
-                  <p key={index}>{framework}</p>
+                <div className="inline-block px-4 py-2 mx-2 my-1 rounded-full bg-cyan-700 hover:bg-cyan-700/50" key={index}>
+                  <p>{framework}</p>
                 </div>
               ))
             }
@@ -61,8 +61,8 @@ export default function DirectoryGPT() {
 
           <div className="md:col-span-2 my-1">
             {tools.map((tool, index)  =>(
-                <div className="inline-block px-4 py-2 mx-2 my-1 rounded-full bg-cyan-800 hover:bg-cyan-800/50">
-                  <p key={index}>{tool}</p>
+                <div className="inline-block px-4 py-2 mx-2 my-1 rounded-full bg-cyan-800 hover:bg-cyan-800/50" key={index}>
+                  <p>{tool}</p>
                 </div>
               ))
             }
