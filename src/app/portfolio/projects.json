@@ -1,6 +1,6 @@
 [
   {
-    "imagePath": "/projects/spotcheckai.png",
+    "imagePath": "/projects/directorygpt.png",
     "projectTitle": "DirectoryGPT",
     "projectDescription": "Large language model chatbot interfacing with user uploaded documents with API capabilities."
   },

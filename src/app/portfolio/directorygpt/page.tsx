@@ -23,7 +23,7 @@ export default function DirectoryGPT() {
 
 
       <div id="picture" className="lg:w-3/4">
-        <Image src={'/projects/spotcheckai.png'} alt={'spotcheckai'}width={1000} height={1000}></Image>
+        <Image src={'/projects/directorygpt.png'} alt={'directorygpt'}width={1000} height={1000}></Image>
       </div>
       <div id="text" className="text-left px-2 py-2">
 
