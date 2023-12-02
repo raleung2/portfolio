@@ -19,7 +19,7 @@ export default function Home() {
       <section id='welcome' className='pt-7'>
         <p className='font-semibold text-3xl lg:text-4xl'>Rafferty Leung</p>
         <p>———</p>
-        <p className='font-medium text-2xl lg:text-3xl'>Aspiring Software Engineer</p>
+        <p className='font-medium text-2xl lg:text-3xl'>Software Engineer</p>
         <p className='font-medium text-2xl lg:text-3xl'>and Private Pilot</p>
       </section>
 
@@ -46,7 +46,7 @@ export default function Home() {
               My name is Rafferty Leung and I am a Master of Science student at 
               Pace University studying Computer Science. I also have a Bachelor of Science in 
               Pharmaceutical Chemistry from the University of California, Davis. I currently am 
-              working at Labii as a Software Engineering Intern. 
+              working at Sutter Health as a Software Engineer. 
               <br></br><br></br>
               I have a specific interest in technologies related to server-side development, 
               while also being intrigued by the realm of full-stack web development. More 
@@ -62,12 +62,23 @@ export default function Home() {
         </OpaqueBox>
 
         <OpaqueBox>
+          <div id='logo-container' className='grid place-items-center mx-4 my-4'>
+            <Image src={'/sutter_health.png'} alt='Sutter Health' width={250} height={250}/>
+          </div>
+          <div id='paragraph-wrapper' className='text-center lg:text-left lg:col-span-3 flex flex-col justify-center mx-4 my-4'>
+            <p className='font-semibold text-3xl mb-3'>Sutter Health</p>
+            <p className='font-semibold mb-2'>October 2023 - Present</p>
+            <p>Software Engineering</p>
+          </div>
+        </OpaqueBox>
+
+        <OpaqueBox>
             <div id='logo-container' className='grid place-items-center mx-4 my-4'>
               <Image src={'/labii.png'} alt='Labii Inc' width={250} height={250}/>
             </div>
             <div id='paragraph-wrapper' className='text-center lg:text-left lg:col-span-3 flex flex-col justify-center mx-4 my-4'>
               <p className='font-semibold text-3xl mb-3'>Labii Inc</p>
-              <p className='font-semibold mb-2'>October 2022 - Present</p>
+              <p className='font-semibold mb-2'>October 2022 - October 2023</p>
               <p>Software Engineering Intern</p>
             </div>
         </OpaqueBox>
