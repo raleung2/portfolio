@@ -68,7 +68,7 @@ export default function Home() {
           <div id='paragraph-wrapper' className='text-center lg:text-left lg:col-span-3 flex flex-col justify-center mx-4 my-4'>
             <p className='font-semibold text-3xl mb-3'>Sutter Health</p>
             <p className='font-semibold mb-2'>October 2023 - Present</p>
-            <p>Software Engineering</p>
+            <p>Software Engineer</p>
           </div>
         </OpaqueBox>
 
